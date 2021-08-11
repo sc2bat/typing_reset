@@ -1,0 +1,142 @@
+# https://www.speedcoder.net/lessons/ 이동해서 실행할 것
+
+import time
+import pyautogui
+
+w = pyautogui.getWindowsWithTitle("Typing")[0]
+# print(w)
+if w.isActive == False : 
+    w.activate() 
+# if w.isMaximized == False: 
+#     w.maximize() 
+
+time.sleep(3)
+
+resetdir = r"C:\Users\Dero\Desktop\p\1234\reset_btn.png"
+lesdir = r"C:\Users\Dero\Desktop\p\1234\lesson.png"
+
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\C.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\c2.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\C3.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\CSS.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\Haskell.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\HTML.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\Java.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\JavaScript.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\Perl.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\PHP.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\Python.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+#####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\Ruby.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)
+reset = pyautogui.locateOnScreen(resetdir)
+pyautogui.click(reset, duration=0.25)
+time.sleep(10)
+lesson = pyautogui.locateOnScreen(lesdir)
+pyautogui.click(lesson, duration=0.25)
+time.sleep(10)
+
+##### 완료 및 시작 #####
+img = pyautogui.locateOnScreen(r"C:\Users\Dero\Desktop\p\1234\C.png")
+pyautogui.click(img, duration=0.25)
+time.sleep(10)

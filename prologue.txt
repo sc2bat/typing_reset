@@ -1,0 +1,13 @@
+웹 스크래핑
+웹 페이지에서 원하는 부부만
+
+웹 크롤링
+웹 페이지 내 모든 것
+
+web HTML Css Js
+
+html = 뼈대
+css = 인테리어
+js = 생활
+
+HTML(Hyper Text Markup Language)
